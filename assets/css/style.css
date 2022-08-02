@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: #210f93;
+    color: #fff;
+}
+
+main {
+    padding-left: 10%;
+}
+
+
+.list-group-item {
+    line-height: 0.5;
+    border: none;
+}
+
+.card-body {
+    flex: auto
+}
+
+span.severe {
+    padding: 3px;
+    background-color: red;
+    color: white;
+}
+
+span.moderate {
+    padding: 3px;
+    background-color: yellow;
+}
+
+span.favorable {
+    padding: 3px;
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
